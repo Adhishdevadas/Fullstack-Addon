@@ -1,0 +1,34 @@
+.zero{
+    float: left;
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    width: 200px; 
+    height: 200px; 
+    }
+.one{
+   float: left;
+background-color: aqua;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+width: 200px;
+height: 200px;
+border: 20px solid rgb(95, 122, 238);
+    }
+    .two{
+        float: left;
+        background-color: aqua;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 200px;
+       height: 200px;
+      border: 20px solid rgb(95, 109, 236);
+        padding: 20px;
+    }
+    .three{
+        float: left;
+        background-color: aqua;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 280px;
+       height: 280px;
+       border: 20px solid rgb(95, 109, 233);
+        padding: 20px;
+        margin: 20px;
+    }

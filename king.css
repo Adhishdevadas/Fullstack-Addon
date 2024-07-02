@@ -1,0 +1,14 @@
+div{
+    font-size: 2em;
+}
+h1{
+    font: size 50em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+p{
+    font-size: large;
+    font-family: "Gwendolyn", cursive; 
+    font-weight: lighter;
+    font-style: oblique;
+}

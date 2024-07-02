@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow properties</title>
+        <style>
+        .child-div{
+            background-color: yellowgreen;
+            color: darkred;
+           display: flex;
+           height: 100px;
+           width: 150px;
+           flex-grow: 1;
+           
+        }
+        .parent-div{
+            display: flex;
+            align-content: center;
+           justify-content: space-around;
+           height: 100vh;
+           flex-wrap: wrap;
+           gap: 10px;
+        }
+          </style>
+    <!-- <style>
+        div{
+            width: 500px;
+            height: 50px;
+            overflow:scroll hidden;
+        }
+        p{
+            width: 700px;
+            height: fit-content;
+            cursor:e-resize ;
+        }
+        /* p:active{
+            cursor: grabbing;
+        } */
+    </style> -->
+</head>
+<body>
+  <!-- FLEX -->
+  <div class="parent-div">
+  <div class="child-div ">King of Pirates</div>
+  <div class="child-div">King of Pirates</div>
+  <div class="child-div"> King of Pirates</div>
+   <div class="child-div">King of Pirates</div>
+  <div class="child-div">King of Pirates</div>
+  <div class="child-div"> King of Pirates</div>
+  </div>  
+</body>
+</html>
